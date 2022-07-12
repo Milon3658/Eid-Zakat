@@ -1,0 +1,85 @@
+.root {
+    --button-background-color: #EF233C;
+}
+
+.body {
+    margin: 0%;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+}
+
+p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color:
+        rgba(112, 112, 112, 1);
+}
+
+.cover {
+    background-image: linear-gradient(to right, #121212 0%, rgba(18, 18, 18, 0) 100%), url(images/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+.cover h1 {
+    font-size: 50px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 10%;
+
+}
+
+.cover p {
+    font-size: 16px;
+    color: white;
+    padding-left: 10%;
+
+}
+
+.cover a {
+    margin-left: 10%;
+}
+
+.Button {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding: 16px 12px;
+    width: fit-content;
+    background-color: #EF233C;
+    border-radius: 5px;
+}
+
+video {
+    height: 450px;
+    width: 456px;
+}
+
+.timeline {
+    margin-bottom: 100px;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-around;
+}
+.text-class{
+    padding: 5%;
+}
