@@ -153,6 +153,7 @@ border-radius: 10px;
     border: 1px solid rgba(217, 217, 217, 1);    ;
     display: flex;
     margin-bottom: 20px;
+    padding-bottom: 30px;
 }
 .Zakat-Card h4{
     font-family: 'Inter';
@@ -168,7 +169,16 @@ border-radius: 10px;
     font-size: 16px;
     line-height: 28px;
     padding-left: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+.Zakat-Card a{
+    color: #EF233C;
+    padding-left: 20px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+
 }
 .Zakat-Card img{
     width: 364px;
