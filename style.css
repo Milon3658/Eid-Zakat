@@ -118,11 +118,14 @@ video {
     line-height: 28px;
     padding-left: 20px;
     margin-right: 50px;
+    margin-bottom: 30px;
 
 }
 
 .help-card img {
-    margin: 20px;
+
+margin-top: 30px;
+margin-left: 20px;
 }
 
 .help-card-flex {
@@ -130,4 +133,54 @@ video {
     padding-left: 20%;
     padding-right: 20%;
     justify-content: space-evenly;
+}
+.dua-images{
+    width: 364px;
+height: 391px;
+border-radius: 10px;
+}
+.dua{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.Zakat-Card{
+    background: wihte;
+    border-radius: 10px;
+    border: 1px solid rgba(217, 217, 217, 1);    ;
+    display: flex;
+    margin-bottom: 20px;
+}
+.Zakat-Card h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.Zakat-Card p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+.Zakat-Card img{
+    width: 364px;
+height: 211px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#Zakat{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 100px;
+
 }
