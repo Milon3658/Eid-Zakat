@@ -80,6 +80,54 @@ video {
     padding-right: 10%;
     justify-content: space-around;
 }
-.text-class{
+
+.text-class {
     padding: 5%;
+}
+
+.donation-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.help-card {
+    background: #FEF4F5;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.help-card h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.help-card p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    padding-left: 20px;
+    margin-right: 50px;
+
+}
+
+.help-card img {
+    margin: 20px;
+}
+
+.help-card-flex {
+    display: flex;
+    padding-left: 20%;
+    padding-right: 20%;
+    justify-content: space-evenly;
 }
