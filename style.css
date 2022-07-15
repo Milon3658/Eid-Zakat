@@ -18,8 +18,7 @@ p {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    color:
-        rgba(112, 112, 112, 1);
+    color:rgba(112, 112, 112, 1);
 }
 
 .cover {
@@ -64,15 +63,35 @@ p {
     color: #FFFFFF;
     padding: 16px 12px;
     width: fit-content;
-    background-color: #EF233C;
-    border-radius: 5px;
+    border-radius: 10px;
+    background-color: white;
+    color: #EF233C;
+    border: 2px solid #EF233C;
 }
+.DonateNowButton{
+    background-color: transparent;
+    color: #EF233C;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 16px 12px;
+    width: fit-content;
+    border-radius: 10px;
+    border: 2px solid #EF233C;
 
+}
+.DonateNowButton:hover{
+ 
+    background-color: #EF233C;
+    color: white;
+}
 video {
     height: 450px;
     width: 456px;
 }
-
 .timeline {
     margin-bottom: 100px;
     display: flex;
@@ -123,7 +142,6 @@ video {
 }
 
 .help-card img {
-
 margin-top: 30px;
 margin-left: 20px;
 }
@@ -147,6 +165,10 @@ border-radius: 10px;
     padding-right: 10%;
     display: flex;
     justify-content: space-around;
+}
+.dua img{
+    border-radius: 10px;
+    border: 2px solid #EF233C;
 }
 .Zakat-Card{
     background: wihte;
@@ -227,7 +249,7 @@ footer p{
     background-color: antiquewhite;
 }
 .Button:hover{
-    background-color: white;
-    color: #EF233C;
-    border: 2px solid #EF233C;
+    background-color: #EF233C;
+    color: white;
+    /* border: 2px solid #EF233C; */
 }
