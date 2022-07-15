@@ -129,10 +129,11 @@ margin-left: 20px;
 }
 
 .help-card-flex {
-    display: flex;
-    padding-left: 20%;
-    padding-right: 20%;
+     display: flex; 
+    padding-left: 22%;
+    padding-right: 22%;
     justify-content: space-evenly;
+    margin-bottom: 15px;
 }
 .dua-images{
     width: 364px;
@@ -178,6 +179,7 @@ border-radius: 10px;
 font-style: normal;
 font-weight: 600;
 font-size: 20px;
+text-decoration: underline;
 
 }
 .Zakat-Card img{
@@ -212,4 +214,20 @@ footer p{
     font-style: italic;
     font-weight: 400;
     font-size: 16px;
+}
+.Zakat-Card a:hover{
+    text-decoration: none;
+    background-color: #EF233C;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.help-card:hover{
+    background-color: antiquewhite;
+}
+.Button:hover{
+    background-color: white;
+    color: #EF233C;
+    border: 2px solid #EF233C;
 }
